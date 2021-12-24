@@ -1,0 +1,192 @@
+#排序 {
+	margin-top: 15px;
+	width: 1900px
+}
+
+#排序list {
+	font-size: 12px;
+	width: 1150px;
+	height: 28px;
+	margin: 0 auto;
+}
+
+#排序list ul li {
+	padding-right: 25px;
+	float: left;
+}
+
+#排序list ul li a {
+	color: #999;
+}
+
+.zksx a:hover {
+	text-decoration: underline;
+}
+
+.firstli {
+	margin-top: -6px;
+	background-color: #f9e7e8;
+	color: #FD4C5B;
+	display: inline-block;
+	padding: 0 11px;
+	line-height: 28px;
+	height: 28px;
+	border-radius: 3px;
+}
+
+.XRC猴子推荐窄版item02 {
+	font-size: 14px;
+	color: #5a5a5a;
+}
+
+.XRC猴子推荐窄版item02:hover {
+	color: #FD4C5B;
+}
+
+.XRC猴子推荐窄版item {
+	margin-top: 15px;
+}
+
+.XRC猴子推荐窄版item img {
+	width: 176px;
+	height: 99px;
+}
+
+#sectionfoot {
+	width: 1180px;
+	height: 200px;
+	border-bottom: 1px solid #ECECEC;
+}
+
+.跳转nav {
+	margin-top: 20px;
+	margin-left: 370px;
+	margin-bottom: 50px;
+}
+
+.跳转nav div {
+	display: inline-block;
+}
+
+.syy {
+	font-size: 12px;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 30px;
+	cursor: default;
+	color: #ddd;
+	transition: none;
+	background: #fff;
+	border: 1px solid #ddd;
+	width: 60px;
+	height: 30px;
+}
+
+.syy a {
+	color: #ddd;
+}
+
+.yema {
+	transition: all 2s;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 30px;
+	cursor: default;
+	color: #ddd;
+	transition: none;
+	background: #fff;
+	border: 1px solid #ddd;
+	width: 30px;
+	height: 30px;
+}
+
+.yema:hover {
+	background: #E6E6E6;
+	border: 1px solid #E6E6E6;
+	color: #222;
+}
+
+.yema a {
+	font-size: 14px;
+	color: #222;
+}
+
+.yema01 {
+	border-radius: 4px;
+	text-align: center;
+	line-height: 30px;
+	cursor: default;
+	color: #fff;
+	transition: none;
+	background: #fff;
+	border: 1px solid #ddd;
+	width: 30px;
+	height: 30px;
+	background-color: #FD4C5C;
+	border: 1px solid #FD4C5C;
+}
+
+.yema01 a {
+	color: #fff;
+}
+
+.slhh {
+	width: 30px;
+	text-align: center;
+}
+
+.xyy {
+	transition: all 2s;
+	font-size: 12px;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 30px;
+	cursor: default;
+	color: #ddd;
+	transition: none;
+	background: #fff;
+	border: 1px solid #ddd;
+	width: 60px;
+	height: 30px;
+}
+
+.xyy:hover {
+	background: #E6E6E6;
+	border: 1px solid #E6E6E6;
+	color: #222;
+}
+
+.xyy a {
+	color: #222;
+}
+
+.跳页输入框 {
+	font-size: 14px;
+}
+
+.跳页输入框 input {
+	margin: 7px 5px;
+	padding: 0 10px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	box-shadow: none;
+	width: 24px;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+	outline: 0;
+	box-sizing: content-box;
+	text-align: center;
+}
+.new {
+	display: inline-block;
+	background: #FD4C5D;
+	color: #fff;
+	width: 28px;
+	height: 12px;
+	line-height: 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-size: 12px;
+	margin-left: 3px;
+}
