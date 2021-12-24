@@ -1,0 +1,403 @@
+* {
+	/* max-width: 1900px; */
+	/* overflow: hidden; */
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	outline: none;
+	list-style: none;
+}
+
+
+
+#AcFun顶部搜索框栏 {
+	visibility: visible;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	width: 1920px;
+	height: 60px;
+}
+
+#AcFun顶部搜索框栏内框 {
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	position: fixed;
+	z-index: 100;
+	width: 1920px;
+	height: 60px;
+}
+
+#顶部搜索框栏主体内容 {
+	background-color: #FFFFFF;
+	display: flex;
+	width: 1290px;
+	height: 60px;
+}
+
+.顶部搜索框栏主体内容a {
+	background-color: #FFFFFF;
+	height: 46px;
+	display: block;
+	margin: 0 auto;
+}
+
+#顶部搜索框栏主体内容 li {
+	background-color: #FFFFFF;
+	margin-left: 17px;
+	float: left;
+}
+
+#顶部搜索框栏主体内容 ul {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	padding-left: 340px;
+}
+
+.acfunlogo {
+	width: 92px;
+	height: 46px;
+	display: block;
+	background: transparent url(../svg/XRC-acfunlogo.svg)no-repeat center 14px;
+	background-size: contain;
+}
+
+#顶部搜索框栏主体内容 li img {
+	transition: all 1s;
+	margin-top: 17px;
+	vertical-align: middle;
+	width: 1.5em;
+	height: 1.5em;
+}
+
+#顶部搜索框栏主体内容 li img:hover {
+	background-color: #FD4C5B;
+	transform: rotate(45deg);
+}
+
+#顶部搜索框栏主体内容 li span {
+	position: relative;
+	z-index: 1;
+	top: 10px;
+	font-size: 12px;
+	color: #000000;
+}
+
+.周边商城 img {
+	margin-left: 15px;
+}
+
+.seach {
+	padding-right: 65px;
+	position: relative;
+	z-index: 2;
+	display: inline-flex;
+	width: 120.42px;
+	height: 60px;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.seachtxt {
+	position: relative;
+}
+
+.seachtxt input {
+	color: #C3C3C3;
+	border: 1px solid #E5E5E5;
+	padding: 8px 30px 8px 11px;
+	height: 36px;
+	font-size: 12px;
+	line-height: 14px;
+	border-radius: 18px;
+	width: 300px;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.seachtxt button {
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.headernav {
+	z-index: 3;
+	display: inline-flex;
+	position: absolute;
+	right: 53px;
+	width: 425px;
+	height: 3.75rem;
+}
+
+.headernav li {
+	height: 60px;
+	position: relative;
+	right: 257px;
+	float: right;
+	padding-right: 4px;
+}
+
+.投稿button {
+	border-radius: 5px;
+	border: none;
+	background-color: #EC4556;
+	width: 80px;
+	height: 28px;
+	position: absolute;
+	top: 15px;
+}
+
+.投稿span {
+	color: #FFFFFF;
+	font-size: 20px;
+	position: absolute;
+	left: 15px;
+}
+
+#acfunbanner {
+	display: block;
+	background: transparent url(../img/XRC-happynewyearBANNER.png)0 0 no-repeat;
+	width: 1900px;
+	height: 180px;
+	margin: 0 auto;
+	background-size: contain;
+}
+
+#header-nav {
+	border-bottom: 1px solid #5e5e5e;
+	width: 1900px;
+	height: 46px;
+}
+
+#header-nav ul li {
+	position: relative;
+	font-size: 14px;
+	line-height: 45px;
+	display: inline-block;
+	margin-right: 35px;
+}
+
+#header-nav ul li a {
+	color: #000000;
+	transition: all 0.5s;
+}
+
+#header-nav ul li a:hover {
+	transform: translateX(5px);
+	color: #fd4c5d;
+	display: block;
+	border-bottom: 2px solid #fd4c5d;
+}
+
+#header-nav ul {
+	text-align: center;
+	width: 1210px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#sectionbox {
+	margin: 0 auto;
+	width: 1900px;
+	overflow: hidden;
+}
+
+.channel-nav {
+	margin: 0 auto;
+	padding-left: 10px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+}
+
+.channel-nav ul {
+	display: inline-block;
+	margin-left: 365px;
+	width: 120px;
+	top: 0;
+	white-space: nowrap;
+}
+
+.channel-nav ul li {
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.channel-nav ul li a {
+	color: #333333;
+}
+
+.channel-nav ul li a:hover {
+	color: #FD4C5D;
+}
+
+footer {
+	width: 100%;
+	background-color: #ECECEC;
+	height: 400px;
+}
+
+.new {
+	display: inline-block;
+	background: #FD4C5D;
+	color: #fff;
+	width: 28px;
+	height: 12px;
+	line-height: 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-size: 12px;
+	margin-left: 3px;
+}
+
+#footer {
+	position: relative;
+	right: 193px;
+	width: 1500px;
+	margin: 0 auto;
+}
+
+#footermain h5 {
+	color: #B5B5B5;
+}
+
+#footermain a {
+	color: #333333;
+}
+
+#footermain {
+	margin: 0 auto;
+	margin-left: 273px;
+}
+
+#takepartin {
+	position: relative;
+	font-size: 12px;
+	height: 100px;
+	line-height: 30px;
+	border-right: 1px #E5E5E5 solid;
+	margin-top: 50px;
+	padding-left: 80px;
+	padding-right: 50px;
+	float: left;
+}
+
+.招聘2P {
+
+	margin-top: 20px;
+}
+
+#official {
+	font-size: 12px;
+	height: 100px;
+	line-height: 30px;
+	border-right: 1px #E5E5E5 solid;
+	padding-right: 90px;
+	padding-left: 40px;
+	margin-right: 30px;
+	margin-top: 50px;
+	float: left;
+}
+
+#download {
+	font-size: 12px;
+	height: 100px;
+	line-height: 30px;
+	border-right: 1px #E5E5E5 solid;
+	padding-right: 100px;
+	padding-left: 10px;
+	margin-top: 50px;
+	float: left;
+}
+
+#友情链接 {
+
+	font-size: 12px;
+	height: 100px;
+	line-height: 30px;
+	border-right: 1px #E5E5E5 solid;
+	padding-right: 100px;
+	padding-left: 40px;
+	margin-top: 50px;
+	float: left;
+}
+
+#反馈 {
+
+	font-size: 12px;
+	height: 100px;
+	line-height: 30px;
+	padding-right: 0px;
+	padding-left: 40px;
+	margin-top: 50px;
+	float: left;
+}
+
+#AC娘表情包 {
+	width: 100px;
+	height: 130px;
+	position: relative;
+}
+
+#AC娘表情包 img {
+	position: absolute;
+	top: 65px;
+
+}
+
+#版权备案 img {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+#版权备案 {
+	line-height: 25px;
+	font-size: 12px;
+	margin-top: 50px;
+}
+
+#版权备案 a {
+	color: #A49999;
+}
+
+#item1 {
+	padding-right: 10px;
+	padding-left: 353px;
+	float: left;
+}
+
+#item2 {
+	float: left;
+}
+
+#item3 {
+	float: left;
+}
+
+#item4 {
+	float: left;
+}
+
+#footerlogo {
+	margin-top: 90px;
+	width: 1900px;
+	height: 30px;
+}
+
+#grayLogo {
+	width: 78px;
+	height: 24px;
+	margin: 0 auto;
+}
+
+#copyright {
+	line-height: 30px;
+	color: #C2BAC8;
+	font-size: 12px;
+	width: 260px;
+	margin: 0 auto;
+}

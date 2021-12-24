@@ -1,0 +1,839 @@
+* {
+	/* max-width: 1900px; */
+	/* overflow: hidden; */
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	outline: none;
+	list-style: none;
+}
+
+
+#AcFun顶部搜索框栏 {
+	visibility: visible;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	width: 1920px;
+	height: 60px;
+}
+
+#AcFun顶部搜索框栏内框 {
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	position: fixed;
+	z-index: 100;
+	width: 1920px;
+	height: 60px;
+}
+
+#顶部搜索框栏主体内容 {
+	background-color: #FFFFFF;
+	display: flex;
+	width: 1290px;
+	height: 60px;
+}
+
+.顶部搜索框栏主体内容a {
+	background-color: #FFFFFF;
+	height: 46px;
+	display: block;
+	margin: 0 auto;
+}
+
+#顶部搜索框栏主体内容 li {
+	background-color: #FFFFFF;
+	margin-left: 17px;
+	float: left;
+}
+
+#顶部搜索框栏主体内容 ul {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	padding-left: 340px;
+}
+
+.acfunlogo {
+	width: 92px;
+	height: 46px;
+	display: block;
+	background: transparent url(../img/XRC-acfunlogo.svg)no-repeat center 14px;
+}
+
+#顶部搜索框栏主体内容 li img {
+	margin-top: 17px;
+	vertical-align: middle;
+	width: 1.5em;
+	height: 1.5em;
+}
+
+#顶部搜索框栏主体内容 li span {
+	position: relative;
+	z-index: 1;
+	top: 10px;
+	font-size: 12px;
+	color: #000000;
+}
+
+.周边商城 img {
+	margin-left: 15px;
+}
+
+.seach {
+	padding-right: 65px;
+	position: relative;
+	z-index: 2;
+	display: inline-flex;
+	width: 120.42px;
+	height: 60px;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.seachtxt {
+	position: relative;
+}
+
+.seachtxt input {
+	color: #C3C3C3;
+	border: 1px solid #E5E5E5;
+	padding: 8px 30px 8px 11px;
+	height: 36px;
+	font-size: 12px;
+	line-height: 14px;
+	border-radius: 18px;
+	width: 300px;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.seachtxt button {
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.headernav {
+	z-index: 3;
+	display: inline-flex;
+	position: absolute;
+	right: 53px;
+	width: 425px;
+	height: 3.75rem;
+}
+
+.headernav li {
+	height: 60px;
+	position: relative;
+	right: 257px;
+	float: right;
+	padding-right: 4px;
+}
+
+.投稿button {
+	border-radius: 5px;
+	border: none;
+	background-color: #EC4556;
+	width: 80px;
+	height: 28px;
+	position: absolute;
+	top: 15px;
+}
+
+.投稿span {
+	color: #FFFFFF;
+	font-size: 20px;
+	position: absolute;
+	left: 15px;
+}
+
+#acfunbanner {
+	cursor: pointer;
+	display: block;
+	background: transparent url(../img/XRC-happynewyearBANNER.png)no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	width: 1900px;
+	height: 180px;
+	margin: 0 auto;
+}
+
+#zxc {
+	overflow: hidden;
+	width: 1920px;
+	margin: 0 auto;
+}
+
+#header-nav {
+	border-bottom: 1px #E5E5E5 solid;
+	width: 1917px;
+	height: 46px;
+}
+
+#header-nav ul li {
+	position: relative;
+	font-size: 14px;
+	line-height: 45px;
+	display: inline-block;
+	margin-right: 35px;
+}
+
+#header-nav ul li a {
+	color: #000000;
+	transition: all 0.5s;
+}
+
+#header-nav ul li a:hover {
+	transform: translateX(5px);
+	color: #fd4c5d;
+	display: block;
+	border-bottom: 2px solid #fd4c5d;
+}
+
+#header-nav ul {
+	text-align: center;
+	width: 1210px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header {
+	overflow: hidden;
+}
+
+section {
+	/* max-width: 1900px; */
+	position: relative;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color: #F8F8F8;
+}
+
+#sectionbox {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1900px;
+	overflow: hidden;
+}
+
+#轮播图 {
+	position: relative;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin-left: 370px;
+	margin-top: 10px;
+}
+
+#轮播图>a>img {
+	box-sizing: border-box;
+	border-radius: 3px;
+	width: 482px;
+	height: 246px;
+}
+
+#轮播图 span {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	right: 310px;
+	top: 220px;
+}
+
+#轮播图按钮 {
+	left: 350px;
+	height: 28px;
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	right: 0;
+	padding: 0 10px;
+}
+
+#轮播图按钮 li {
+	transition: all 0.5s;
+	margin: 10px 0 0 8px;
+	border-radius: 5px;
+	width: 8px;
+	height: 8px;
+	line-height: 8px;
+	overflow: hidden;
+	background-color: #FFFDEF;
+	display: inline-block;
+	text-indent: 20px;
+	cursor: pointer;
+}
+
+#轮播图按钮 li:hover {
+	transform: matrix();
+	background-color: #FD4C5D;
+	width: 16px;
+}
+
+#channel-slider {
+	position: relative;
+}
+
+#channel-sliderright img {
+	width: 206px;
+	height: 114px;
+}
+
+#channel-sliderleft {
+	position: relative;
+	top: -7px;
+	display: inline-block;
+}
+
+#channel-sliderright {
+	position: relative;
+	top: -4px;
+	left: 15px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.channel-sliderrightitem {
+
+	margin-right: 10px;
+	margin-top: 18px;
+	display: inline-block;
+}
+
+.channel-sliderrightitem>a {
+	position: relative;
+}
+
+.channel-nav {
+	position: relative;
+	margin: 0 auto;
+	padding-left: 10px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+}
+
+.channel-nav ul {
+	display: inline-block;
+	margin-left: 365px;
+	width: 120px;
+	top: 0;
+	white-space: nowrap;
+}
+
+.channel-nav ul li {
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.channel-nav ul li a {
+	color: #333333;
+}
+
+.channel-nav ul li a:hover {
+	color: #FD4C5D;
+}
+
+.channel-sliderrightitem span {
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 12px;
+	position: absolute;
+	right: 50px;
+	top: 1px;
+}
+
+.猴子推荐窄版 {
+	width: 1900px;
+	margin-top: 70px;
+	box-sizing: border-box;
+}
+
+.猴子推荐窄版header {
+	margin-bottom: 20px;
+}
+
+.猴子推荐窄版header h1 {
+	display: inline-block;
+	margin-left: 370px;
+	font-size: 18px;
+	color: #333;
+	font-weight: 700;
+}
+
+.猴子推荐窄版header a {
+	transition: all 0.5s;
+	font-size: 14px;
+	display: inline-block;
+	padding: 0 10px;
+	height: 22px;
+	line-height: 22px;
+	color: #333333;
+	border-radius: 3px;
+	border: 1px solid transparent;
+	background: none;
+}
+
+.GD {
+	color: #FD4C5B;
+}
+
+.猴子推荐窄版header span {
+	display: inline-block;
+	margin-left: 645px;
+}
+
+.猴子推荐窄版header span a:hover {
+	background-color: #Fae7e8;
+	background: rgba(253, 76, 91, .1);
+	color: #FD4C5B;
+}
+
+.XRC猴子推荐窄版itempng>img {
+	overflow: hidden;
+	box-sizing: border-box;
+	border-radius: 3px;
+	width: 160px;
+	height: 90px;
+}
+
+.XRC猴子推荐窄版item-title {
+	font-size: 12px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.XRC猴子推荐窄版item-title:hover {
+	color: #FD4C5D;
+}
+
+.XRC猴子推荐窄版item-UP {
+	display: inline-block;
+	width: 150px;
+	font-size: 12px;
+	color: #999;
+}
+
+.XRC猴子推荐窄版item-UP:hover {
+	color: #FD4C5D;
+}
+
+.XRC猴子推荐窄版item {
+	margin: 0 18px 10px 0;
+	display: inline-block;
+}
+
+.猴子推荐窄版MAIN {
+	margin-left: 370px;
+}
+
+#鱼塘香蕉榜下广东广西 {
+	margin-top: 10px;
+	margin-left: 370px;
+	width: 1900px;
+	height: 120px;
+}
+
+.换一批 {
+	width: 76px;
+	height: 24px;
+	background-color: #F8F8F8;
+	border: 1px solid #DEDEDE;
+	font-size: 12px;
+	margin-left: 20px;
+	vertical-align: bottom;
+	color: #333333;
+	cursor: pointer;
+}
+
+.换一批 img {
+	width: 16px;
+}
+
+#普法安全 {}
+
+#鱼塘香蕉榜下广东广西2 {
+
+	width: 880px;
+	height: 120px;
+}
+
+.投喂香蕉数 {
+	left: 90px;
+	top: -20px;
+	position: relative;
+	display: inline-block;
+}
+
+.投喂香蕉数 img {
+	width: 16px;
+	height: 16px;
+}
+
+.投喂香蕉数span {
+	width: 78px;
+	color: #f9bc00;
+	font-size: 14px;
+	text-align: right;
+	margin-top: 4px;
+}
+
+.视频底部信息 {
+	font-size: 12px;
+	vertical-align: bottom;
+	color: #999999;
+}
+
+.视频底部信息 img {
+	width: 10px;
+	height: 10px;
+}
+
+#热门标签 {
+	position: absolute;
+	right: 360px;
+	top: 345px;
+	width: 260px;
+	height: 304px;
+}
+
+#热门标签header h1 {
+	display: inline-block;
+	line-height: 28px;
+	height: 28px;
+	color: #333;
+	font-weight: 700px;
+	font-size: 18px;
+}
+
+#热门标签header {
+	margin-bottom: 10px;
+}
+
+.bqword {
+	display: inline-block;
+	font-size: 12px;
+	color: #333333;
+	overflow: hidden;
+	height: 25px;
+	line-height: 25px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 0 10px;
+	cursor: pointer;
+	border: 1px solid #e1e1e1;
+	border-radius: 3px;
+	background: #fff;
+}
+
+.bqword:hover {
+	color: #FD4C5B;
+}
+
+.rightphb {
+	position: relative;
+	position: absolute;
+	right: 350px;
+	top: 750px;
+}
+
+.rightphbitem img {
+	border-radius: 3px;
+	width: 90px;
+	height: 50px;
+}
+
+.phbxx {
+	margin-bottom: 10px;
+	padding-left: 15px;
+	color: #999999;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.phbxx img {
+	vertical-align: middle;
+	width: 10px;
+	height: 10px;
+}
+
+.phbxx>li>a {
+	color: #000000;
+	transition: all 0.2s;
+}
+
+.rightphbheader h3 {
+	display: inline-block;
+}
+
+.lia {
+	color: #999999;
+}
+
+.phbxx a:hover {
+	color: #FD4C5B !important;
+}
+
+.span1 {
+	display: inline-block;
+	margin-left: 45px;
+}
+
+.rightphbheader a {
+	font-size: 14px;
+	display: inline-block;
+	padding: 0 10px;
+	height: 22px;
+	line-height: 22px;
+	color: #333333;
+	border-radius: 3px;
+	border: 1px solid transparent;
+	background: none;
+}
+
+.rightphbheader {
+	margin-bottom: 15px;
+}
+
+.chakangd {
+	transition: all 0.5s;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	display: inline-block;
+	background: #EEEEEE;
+	border-radius: 3px;
+	color: #333333;
+	width: 260px;
+	height: 26px;
+}
+
+.chakangd:hover {
+	background: #e4e4e4;
+}
+
+.upicon {
+	border-radius: 50%;
+	position: relative;
+	top: 25px;
+	right: 5px;
+	border: 5px solid #FFFFFF;
+}
+
+.名人堂xrc {
+	box-sizing: border-box;
+	position: absolute;
+	top: 1510px;
+	right: 355px;
+	width: 260px;
+	height: 700px;
+}
+
+.mrtitem {
+	font-size: 13px;
+	width: 260px;
+	height: 230px;
+}
+
+.upname {
+	color: #000000;
+	display: inline-block;
+	position: relative;
+	top: -25px;
+	left: 10px;
+}
+
+.gzan {
+	cursor: pointer;
+	transition: all 0.4s;
+	color: #FD4C5B;
+	border: 1px solid #c1c1c1;
+	background: #FFFFFF;
+	width: 52px;
+	height: 22px;
+	margin-top: 1px;
+	position: relative;
+	top: -25px;
+	left: 82px;
+}
+
+.gzan:hover {
+	background: #FD4C5B;
+	color: #FFFDEF;
+}
+
+.wenan {
+	position: relative;
+	top: -20px;
+	color: #FFFFFF;
+}
+
+footer {
+	overflow: hidden;
+	background-color: #ECECEC;
+	height: 400px;
+}
+
+#footer {
+	position: relative;
+	right: 193px;
+	width: 1500px;
+	margin: 0 auto;
+}
+
+#footermain h5 {
+	color: #B5B5B5;
+}
+
+#footermain a {
+	color: #333333;
+}
+
+#footermain {
+	margin: 0 auto;
+	margin-left: 273px;
+}
+
+#takepartin {
+	position: relative;
+	font-size: 12px;
+	height: 100px;
+	line-height: 30px;
+	border-right: 1px #E5E5E5 solid;
+	margin-top: 50px;
+	padding-left: 80px;
+	padding-right: 50px;
+	float: left;
+}
+
+.招聘2P {
+
+	margin-top: 20px;
+}
+
+#official {
+	font-size: 12px;
+	height: 100px;
+	line-height: 30px;
+	border-right: 1px #E5E5E5 solid;
+	padding-right: 90px;
+	padding-left: 40px;
+	margin-right: 30px;
+	margin-top: 50px;
+	float: left;
+}
+
+#download {
+	font-size: 12px;
+	height: 100px;
+	line-height: 30px;
+	border-right: 1px #E5E5E5 solid;
+	padding-right: 100px;
+	padding-left: 10px;
+	margin-top: 50px;
+	float: left;
+}
+
+#友情链接 {
+
+	font-size: 12px;
+	height: 100px;
+	line-height: 30px;
+	border-right: 1px #E5E5E5 solid;
+	padding-right: 100px;
+	padding-left: 40px;
+	margin-top: 50px;
+	float: left;
+}
+
+#反馈 {
+
+	font-size: 12px;
+	height: 100px;
+	line-height: 30px;
+	padding-right: 0px;
+	padding-left: 40px;
+	margin-top: 50px;
+	float: left;
+}
+
+#AC娘表情包 {
+	width: 100px;
+	height: 130px;
+	position: relative;
+}
+
+#AC娘表情包 img {
+	position: absolute;
+	top: 65px;
+
+}
+
+#版权备案 img {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+#版权备案 {
+	line-height: 25px;
+	font-size: 12px;
+	margin-top: 50px;
+}
+
+#版权备案 a {
+	color: #A49999;
+}
+
+#item1 {
+	padding-right: 10px;
+	padding-left: 353px;
+	float: left;
+}
+
+#item2 {
+	float: left;
+}
+
+#item3 {
+	float: left;
+}
+
+#item4 {
+	float: left;
+}
+
+#footerlogo {
+	margin-top: 90px;
+	width: 1900px;
+	height: 30px;
+}
+
+#grayLogo {
+	width: 78px;
+	height: 24px;
+	margin: 0 auto;
+}
+
+#copyright {
+	line-height: 30px;
+	color: #C2BAC8;
+	font-size: 12px;
+	width: 260px;
+	margin: 0 auto;
+}
+
+.new {
+	display: inline-block;
+	background: #FD4C5D;
+	color: #fff;
+	width: 28px;
+	height: 12px;
+	line-height: 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-size: 12px;
+	margin-left: 3px;
+}
